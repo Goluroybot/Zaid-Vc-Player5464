@@ -11,7 +11,7 @@ if os.path.exists("local.env"):
 load_dotenv()
 admins = {}
 
-SESSION_NAME = getenv("SESSION_NAME")
+SESSION_NAME = getenv("TELETHON")
 
 if str(getenv("STRING_SESSION2")).strip() == "1AZWarzsBu2Yq2VWPMpHBrxWHURVwQRZnoa2QeapLC-gsjeZxdXX9XaBpiv4yBzlSQ12jtzvpg9YlruPg0UVcsKeWIInOx6eBm-JVO5Gl3FgrAmEiQ8K-ie_n6_VDQf9_-QWssNBNxmLtW4WhVsNCgMxhs29eZGhFp7BTfoJilefT2uYwO1i7iDCJVX5RC47kZZ1strNBSBny0m8s5R9a85HjFDYP8YrWY-BBTj4bn8NZ0Cycg-0nXW8L5HjzqGWryWY-NBJvuITdQUyfAccKPum51rlIb2LVyZlYqn5GuJVry9YWHZ3HEfu5cw5BnKoRluAtYd-BbiixfekPT9-Pu2hT0qNMrPM=":
     SESSION2 = str(None)
