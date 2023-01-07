@@ -36,8 +36,8 @@ else:
 BOT_TOKEN = getenv("BOT_TOKEN", "5930549721:AAGQGXPDFDQLZQrnmAJuZK595EMTeucb930")
 BOT_NAME = getenv("BOT_NAME", "hjjj")
 
-API_ID = int(getenv("API_ID", "27633466)
-API_HASH = getenv("API_HASH", "bb85d45cfcdf015bd7691075045ab723)
+API_ID = int(getenv("API_ID", "27633466")
+API_HASH = getenv("API_HASH", "bb85d45cfcdf015bd7691075045ab723")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb://ud7kcz6totsvepy86bb2:d4gmTfoBbpzDmNLzItwG@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/b0ojwj6pcvvj30u?replicaSet=rs0")
 OWNER_NAME = getenv("OWNER_NAME", "ABHI ROY")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "ANUJ_Assistant")
